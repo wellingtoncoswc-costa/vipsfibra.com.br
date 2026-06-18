@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background: #ffffff;
+    color: #0F2557;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #root {
+    width: 100%;
+    min-height: 100vh;
+  }
+}
+
+@layer utilities {
+  .section-reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .section-reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .section-reveal-delay-1 { transition-delay: 0.1s; }
+  .section-reveal-delay-2 { transition-delay: 0.2s; }
+  .section-reveal-delay-3 { transition-delay: 0.3s; }
+  .section-reveal-delay-4 { transition-delay: 0.4s; }
+
+  .gradient-navy {
+    background: linear-gradient(135deg, #0F2557 0%, #1A3870 100%);
+  }
+
+  .gradient-green {
+    background: linear-gradient(135deg, #00D437 0%, #009926 100%);
+  }
+
+  .gradient-hero {
+    background: linear-gradient(160deg, #0A1B40 0%, #0F2557 50%, #1A3870 100%);
+  }
+
+  .text-gradient-green {
+    background: linear-gradient(135deg, #00D437, #00FF50);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .card-hover {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px -8px rgba(0, 212, 55, 0.2), 0 8px 16px -4px rgba(15, 37, 87, 0.15);
+  }
+}
