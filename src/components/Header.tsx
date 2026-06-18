@@ -30,24 +30,12 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-3">
+        <a href="#" className="flex items-center">
           <img
-            src="https://www.vipsfibra.com.br/images/logo.png"
+            src="/logo.png"
             alt="Vip's Fibra"
-            className="h-10 w-auto"
-            onError={(e) => {
-              const t = e.currentTarget
-              t.style.display = 'none'
-              const fallback = t.nextElementSibling as HTMLElement
-              if (fallback) fallback.style.display = 'block'
-            }}
+            className="h-12 w-auto"
           />
-          <span
-            className="font-display font-bold text-xl text-white hidden"
-            style={{ display: 'none' }}
-          >
-            Vip's <span className="text-brand-green">FIBRA</span>
-          </span>
         </a>
 
         {/* Desktop nav */}

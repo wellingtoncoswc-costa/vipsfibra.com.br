@@ -9,10 +9,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="mb-4">
-              <span className="font-display font-bold text-2xl text-white">
-                Vip's <span className="text-brand-green">FIBRA</span>
-              </span>
-              <p className="text-white/40 text-xs mt-1 tracking-wide">A Internet da Sua Confiança</p>
+              <img src="/logo-white.png" alt="Vip's Fibra" className="h-16 w-auto mb-2" />
+              <p className="text-white/40 text-xs tracking-wide">A Internet da Sua Confiança</p>
             </div>
             <p className="text-white/60 text-sm leading-relaxed mb-5">
               O provedor de internet que mais cresce no litoral sul da Bahia. Fibra óptica real para quem merece o melhor.
