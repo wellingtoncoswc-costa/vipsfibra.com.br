@@ -44,7 +44,7 @@ export default function Rural() {
               <ul className="space-y-3 mb-8">
                 {[
                   'Tecnologia wireless ponto-a-ponto',
-                  'Velocidades de 30 a 200 Mbps',
+                  'Sinal estável mesmo em áreas remotas',
                   'Instalação técnica especializada',
                   'Suporte remoto e presencial',
                 ].map((item) => (
