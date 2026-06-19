@@ -4,7 +4,6 @@ const cities = [
   { name: 'Itabela', status: 'Disponível', type: 'Fibra Óptica' },
   { name: 'Barra Velha', status: 'Disponível', type: 'Fibra Óptica' },
   { name: 'Caraíva', status: 'Disponível', type: 'Fibra Óptica' },
-  { name: 'Corumbau', status: 'Disponível', type: 'Fibra Óptica' },
   { name: 'Xandó', status: 'Disponível', type: 'Fibra Óptica' },
   { name: 'São João do Monte', status: 'Disponível', type: 'Fibra Óptica' },
   { name: 'São Geraldo', status: 'Disponível', type: 'Fibra Óptica' },
@@ -34,7 +33,7 @@ export default function Coverage() {
             Onde a Vip's Fibra chega
           </h2>
           <p className="text-white/60 max-w-xl mx-auto">
-            Atendemos as principais cidades e comunidades do litoral sul da Bahia com fibra óptica de alta velocidade.
+            Atendemos as principais cidades e comunidades do extremo sul da Bahia com fibra óptica de alta velocidade.
           </p>
         </div>
 

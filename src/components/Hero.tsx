@@ -87,10 +87,10 @@ export default function Hero() {
 
         {/* Stats */}
         <div className="mt-16 pt-8 border-t border-white/10 grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8">
-          <StatCounter value={800} suffix="+" label="Clientes ativos" />
-          <StatCounter value={8} suffix="+" label="Cidades atendidas" />
+          <StatCounter value={5} suffix="★" label="Avaliação dos clientes" />
+          <StatCounter value={3} suffix="+" label="Cidades atendidas" />
           <StatCounter value={99} suffix="%" label="Uptime garantido" />
-          <StatCounter value={24} suffix="h" label="Suporte disponível" />
+          <StatCounter value={5} suffix="+" label="Anos de mercado" />
         </div>
       </div>
 

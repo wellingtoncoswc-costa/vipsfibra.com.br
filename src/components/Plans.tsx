@@ -7,7 +7,7 @@ const plans = [
     name: 'SMART',
     speed: 150,
     price: 69.9,
-    features: ['150 Mbps de velocidade', 'Wi-Fi incluso', '90 canais de TV', 'Suporte 24h'],
+    features: ['150 Mbps de velocidade', 'Wi-Fi incluso', '90 canais de TV', 'Atendimento humanizado'],
     popular: false,
     color: 'from-slate-600 to-slate-700',
   },
@@ -15,7 +15,7 @@ const plans = [
     name: 'LIGHT',
     speed: 400,
     price: 89.9,
-    features: ['400 Mbps de velocidade', 'Wi-Fi 5 incluso', '90 canais de TV', 'Suporte 24h'],
+    features: ['400 Mbps de velocidade', 'Wi-Fi 5 incluso', '90 canais de TV', 'Atendimento humanizado'],
     popular: false,
     color: 'from-blue-700 to-brand-navy-mid',
   },
@@ -24,7 +24,7 @@ const plans = [
     speed: 500,
     price: 99.9,
     promo: 'R$59,90 por 3 meses',
-    features: ['500 Mbps de velocidade', 'Wi-Fi 5 incluso', '90 canais de TV', 'Suporte 24h'],
+    features: ['500 Mbps de velocidade', 'Wi-Fi 5 incluso', '90 canais de TV', 'Atendimento humanizado'],
     popular: true,
     color: 'from-brand-navy to-brand-navy-mid',
   },
@@ -102,7 +102,7 @@ function PlanCard({ plan, index }: { plan: typeof plans[0]; index: number }) {
 
         {/* Card body */}
         <div className="bg-white flex-1 p-6 flex flex-col">
-          <div className="mb-4">
+          <div className="mb-1">
             <span className="text-brand-navy/50 text-sm">a partir de</span>
             <div className="flex items-baseline gap-1">
               <span className="text-brand-navy font-display text-sm font-semibold">R$</span>
@@ -111,6 +111,18 @@ function PlanCard({ plan, index }: { plan: typeof plans[0]; index: number }) {
               </span>
               <span className="text-brand-navy/50 text-sm">/mês</span>
             </div>
+          </div>
+
+          <p className="text-xs text-gray-400 mb-3">
+            Preço promocional. Normal:{' '}
+            <span className="font-medium text-gray-500">
+              R${(plan.price + 5).toFixed(2).replace('.', ',')}/mês
+            </span>
+          </p>
+
+          <div className="flex items-center gap-2 mb-4 pb-3 border-b border-gray-100">
+            <span className="text-gray-400 text-xs">Inclui:</span>
+            <img src="/logoDigiLivro.png" alt="DigiLivro" className="h-6 w-auto" />
           </div>
 
           <ul className="space-y-2.5 mb-6 flex-1">
