@@ -66,7 +66,7 @@ export default function Testimonials() {
             O que nossos clientes dizem
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto">
-            Mais de 800 famílias e empresas no litoral sul da Bahia confiam na Vip's Fibra.
+            Quem escolhe a Vip's Fibra não volta atrás. Veja o que dizem nossos assinantes do extremo sul baiano.
           </p>
         </div>
 
