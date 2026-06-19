@@ -32,7 +32,7 @@ export default function Header() {
         {/* Logo */}
         <a href="#" className="flex items-center">
           <img
-            src="/logo.png"
+            src="/logo-white.png"
             alt="Vip's Fibra"
             className="h-12 w-auto"
           />
