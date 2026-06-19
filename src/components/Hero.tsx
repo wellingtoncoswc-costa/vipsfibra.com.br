@@ -51,7 +51,7 @@ export default function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-brand-green/10 border border-brand-green/30 rounded-full px-4 py-1.5 mb-6">
             <span className="w-2 h-2 rounded-full bg-brand-green animate-pulse" />
-            <span className="text-brand-green text-sm font-medium">Fibra Óptica 100% Dedicada</span>
+            <span className="text-brand-green text-sm font-medium">Fibra Óptica 100%</span>
           </div>
 
           <h1 className="font-display font-bold text-4xl sm:text-5xl lg:text-6xl text-white leading-tight mb-6">
