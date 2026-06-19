@@ -4,6 +4,7 @@ import Plans from './components/Plans'
 import WhyVips from './components/WhyVips'
 import Coverage from './components/Coverage'
 import TvPlay from './components/TvPlay'
+import PlayHubApps from './components/PlayHubApps'
 import Rural from './components/Rural'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
@@ -18,6 +19,7 @@ export default function App() {
       <WhyVips />
       <Coverage />
       <TvPlay />
+      <PlayHubApps />
       <Rural />
       <Testimonials />
       <Footer />
