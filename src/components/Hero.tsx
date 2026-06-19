@@ -56,7 +56,7 @@ export default function Hero() {
 
           <h1 className="font-display font-bold text-4xl sm:text-5xl lg:text-6xl text-white leading-tight mb-6">
             A internet que o{' '}
-            <span className="text-gradient-green">litoral baiano</span>{' '}
+            <span className="text-gradient-green">extremo sul baiano</span>{' '}
             merecia
           </h1>
 
@@ -90,7 +90,7 @@ export default function Hero() {
           <StatCounter value={5} suffix="★" label="Avaliação dos clientes" />
           <StatCounter value={3} suffix="+" label="Cidades atendidas" />
           <StatCounter value={99} suffix="%" label="Uptime garantido" />
-          <StatCounter value={5} suffix="+" label="Anos de mercado" />
+          <StatCounter value={15} suffix="+" label="Anos de mercado" />
         </div>
       </div>
 
